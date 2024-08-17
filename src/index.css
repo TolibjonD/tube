@@ -57,7 +57,7 @@
 }
 @media screen and (max-width: 600px) {
     .search_bar {
-        width: 200px;
+        width: 150px;
         margin-right: 5px;
     }
     .react_player {

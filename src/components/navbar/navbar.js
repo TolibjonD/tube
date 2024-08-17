@@ -20,7 +20,6 @@ const Navbar = () => {
     >
       <Link to={"/"} style={{display: 'flex', alignItems: 'center'}}>
       <TwitterIcon fontSize="large" style={{color: "#e3e3e3"}} />
-      <span style={{textDecoration: 'none', color: 'white', fontSize: '20px', fontFamily: 'monospace'}}>Tube</span>
       </Link>
       <SearchBar />
       <Box />
