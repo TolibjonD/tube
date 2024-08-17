@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const VideoCard = ({ video }) => {
   return (
-    <Card sx={{ width: {xs: "100%", sm: "360px", md: "320px"}, boxShadow: "none", borderRadius: "none" }}>
+    <Card sx={{ width: {xs: "100%", sm: "360px", md: "320px", border: '1px solid #eee'}, boxShadow: "none", borderRadius: "none" }}>
      <Link to={`video/${video?.id?.videoId}`}>
      <CardMedia
         image={video?.snippet?.thumbnails?.high?.url}

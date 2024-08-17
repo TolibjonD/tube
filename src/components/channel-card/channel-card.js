@@ -12,7 +12,7 @@ const ChannelCard = ({ video, marginTop }) => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '326px',
-        width: { xs: '356px', md: '320px' },
+        width: { xs: '356px', md: '320px', border: '1px solid #eee', background: "#fefefe"},
         margin: 'auto',
         marginTop: marginTop
     }}>
