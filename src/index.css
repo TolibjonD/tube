@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+    width: 0px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(137, 205, 245);
+    border-radius: 10px;
+    height: 200px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.search_bar {
+    border: none;
+    outline: none;
+    width: 350px;
+    color: #008cff;
+}
+
+.category_btn {
+    font-weight: bold !important;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 7px 15px;
+    margin: 10px 0;
+    border-radius: 2px;
+    transition: all .3s ease;
+}
+
+.category_btn:hover {
+    background-color: #52c0f7 !important;
+    color: white !important;
+}
+
+.category_btn:hover span {
+    color: white !important;
+}
+
+.react_player {
+    height: 77vh !important;
+    width: 100% !important;  
+}
+@media screen and (max-width: 600px) {
+    .search_bar {
+        width: 200px;
+        margin-right: 5px;
+    }
+    .react_player {
+        height: 45vh !important;
+    }
 }
